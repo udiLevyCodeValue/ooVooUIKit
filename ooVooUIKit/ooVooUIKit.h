@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double ooVooUIKitVersionNumber;
 //! Project version string for ooVooUIKit.
 FOUNDATION_EXPORT const unsigned char ooVooUIKitVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <ooVooUIKit/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like
+
+#import <ooVooUIKit/Message.h>
 
 

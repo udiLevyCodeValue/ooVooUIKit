@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB7CC49A1C4BF14C00F9ECB8 /* ooVooUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7CC4991C4BF14C00F9ECB8 /* ooVooUIKit.framework */; };
 		DBC193E71C43C57F00EEF60B /* ooVooUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC193E61C43C57F00EEF60B /* ooVooUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC1941F1C43CA5800EEF60B /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC1941D1C43CA5800EEF60B /* Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC194201C43CA5800EEF60B /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1941E1C43CA5800EEF60B /* Message.m */; };
+		DBC194301C43CD4700EEF60B /* ooVooChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC1942D1C43CD4700EEF60B /* ooVooChatViewController.h */; };
+		DBC194311C43CD4700EEF60B /* ooVooChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1942E1C43CD4700EEF60B /* ooVooChatViewController.m */; };
+		DBC194321C43CD4700EEF60B /* ooVooChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC1942F1C43CD4700EEF60B /* ooVooChatViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB7CC4991C4BF14C00F9ECB8 /* ooVooUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ooVooUIKit.framework; path = ooVooUIKit/ooVooUIKit.framework; sourceTree = "<group>"; };
 		DBC193E31C43C57F00EEF60B /* ooVooUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ooVooUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC193E61C43C57F00EEF60B /* ooVooUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ooVooUIKit.h; sourceTree = "<group>"; };
 		DBC193E81C43C57F00EEF60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC1941D1C43CA5800EEF60B /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		DBC1941E1C43CA5800EEF60B /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		DBC1942D1C43CD4700EEF60B /* ooVooChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ooVooChatViewController.h; path = ooVooChatViewController/ooVooChatViewController.h; sourceTree = "<group>"; };
+		DBC1942E1C43CD4700EEF60B /* ooVooChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ooVooChatViewController.m; path = ooVooChatViewController/ooVooChatViewController.m; sourceTree = "<group>"; };
+		DBC1942F1C43CD4700EEF60B /* ooVooChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ooVooChatViewController.xib; path = ooVooChatViewController/ooVooChatViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7CC49A1C4BF14C00F9ECB8 /* ooVooUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +43,7 @@
 		DBC193D91C43C57F00EEF60B = {
 			isa = PBXGroup;
 			children = (
+				DB7CC4991C4BF14C00F9ECB8 /* ooVooUIKit.framework */,
 				DBC193E51C43C57F00EEF60B /* ooVooUIKit */,
 				DBC193E41C43C57F00EEF60B /* Products */,
 			);
@@ -46,10 +60,23 @@
 		DBC193E51C43C57F00EEF60B /* ooVooUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				DBC194331C43CD4C00EEF60B /* ooVooChatViewController */,
+				DBC1941D1C43CA5800EEF60B /* Message.h */,
+				DBC1941E1C43CA5800EEF60B /* Message.m */,
 				DBC193E61C43C57F00EEF60B /* ooVooUIKit.h */,
 				DBC193E81C43C57F00EEF60B /* Info.plist */,
 			);
 			path = ooVooUIKit;
+			sourceTree = "<group>";
+		};
+		DBC194331C43CD4C00EEF60B /* ooVooChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBC1942D1C43CD4700EEF60B /* ooVooChatViewController.h */,
+				DBC1942E1C43CD4700EEF60B /* ooVooChatViewController.m */,
+				DBC1942F1C43CD4700EEF60B /* ooVooChatViewController.xib */,
+			);
+			name = ooVooChatViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +86,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC1941F1C43CA5800EEF60B /* Message.h in Headers */,
+				DBC194301C43CD4700EEF60B /* ooVooChatViewController.h in Headers */,
 				DBC193E71C43C57F00EEF60B /* ooVooUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +103,7 @@
 				DBC193DF1C43C57F00EEF60B /* Frameworks */,
 				DBC193E01C43C57F00EEF60B /* Headers */,
 				DBC193E11C43C57F00EEF60B /* Resources */,
+				DB73D4721C4BDADC001F3430 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -120,16 +150,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC194321C43CD4700EEF60B /* ooVooChatViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB73D4721C4BDADC001F3430 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\n\n# Constants\nSF_TARGET_NAME=${PROJECT_NAME}\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Take build target\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\necho \"Please choose iPhone simulator as the build target.\"\nexit 1\nfi\n\nIPHONE_DEVICE_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\n\n# Build the other (non-simulator) platform\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/arm64\" SYMROOT=\"${SYMROOT}\" ARCHS='arm64' VALID_ARCHS='arm64' $ACTION\n\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\"  CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/armv7\" SYMROOT=\"${SYMROOT}\" ARCHS='armv7 armv7s' VALID_ARCHS='armv7 armv7s' $ACTION\n\n# Copy the framework structure to the universal folder (clean it first)\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\n# Smash them together to combine all architectures\nlipo -create  \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/arm64/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/armv7/${PROJECT_NAME}.framework/${PROJECT_NAME}\" -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBC193DE1C43C57F00EEF60B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC194201C43CA5800EEF60B /* Message.m in Sources */,
+				DBC194311C43CD4700EEF60B /* ooVooChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +280,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ooVooUIKit",
+				);
 				INFOPLIST_FILE = ooVooUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -247,6 +301,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ooVooUIKit",
+				);
 				INFOPLIST_FILE = ooVooUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -275,6 +334,7 @@
 				DBC193ED1C43C57F00EEF60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
