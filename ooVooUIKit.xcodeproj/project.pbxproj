@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB7CC49A1C4BF14C00F9ECB8 /* ooVooUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7CC4991C4BF14C00F9ECB8 /* ooVooUIKit.framework */; };
+		DB7CC5051C4BFA9900F9ECB8 /* ooVooUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7CC5041C4BFA9900F9ECB8 /* ooVooUIKit.framework */; };
 		DBC193E71C43C57F00EEF60B /* ooVooUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC193E61C43C57F00EEF60B /* ooVooUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC1941F1C43CA5800EEF60B /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC1941D1C43CA5800EEF60B /* Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC194201C43CA5800EEF60B /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC1941E1C43CA5800EEF60B /* Message.m */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB7CC4991C4BF14C00F9ECB8 /* ooVooUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ooVooUIKit.framework; path = ooVooUIKit/ooVooUIKit.framework; sourceTree = "<group>"; };
+		DB7CC5041C4BFA9900F9ECB8 /* ooVooUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ooVooUIKit.framework; sourceTree = "<group>"; };
 		DBC193E31C43C57F00EEF60B /* ooVooUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ooVooUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC193E61C43C57F00EEF60B /* ooVooUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ooVooUIKit.h; sourceTree = "<group>"; };
 		DBC193E81C43C57F00EEF60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7CC49A1C4BF14C00F9ECB8 /* ooVooUIKit.framework in Frameworks */,
+				DB7CC5051C4BFA9900F9ECB8 /* ooVooUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		DBC193D91C43C57F00EEF60B = {
 			isa = PBXGroup;
 			children = (
-				DB7CC4991C4BF14C00F9ECB8 /* ooVooUIKit.framework */,
+				DB7CC5041C4BFA9900F9ECB8 /* ooVooUIKit.framework */,
 				DBC193E51C43C57F00EEF60B /* ooVooUIKit */,
 				DBC193E41C43C57F00EEF60B /* Products */,
 			);
